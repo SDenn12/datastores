@@ -49,5 +49,6 @@ print(devops_student_1["completed_lessons_names"][1])
 # find out how to change completed lessons from 3 to 2
 del(devops_student_1["stream"])
 devops_student_1["completed_lessons"] = 2
+devops_student_1["completed_lessons_names"][1] = "sparta skills"
 print(devops_student_1)
 
