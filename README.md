@@ -52,7 +52,10 @@ print(devops_student_1.values())
 print(devops_student_1["completed_lessons_names"][1])
 # find out how to delete an item from dictionary and delete operations
 # find out how to change completed lessons from 3 to 2
-del(devops_student_1["stream"])
-devops_student_1["completed_lessons"] = 2
+del(devops_student_1["stream"])  # use the del command to delete an item from a dictionary
+devops_student_1["completed_lessons"] = 2  # you can reassign using the index
+
+# you can reassign embedded lists
+devops_student_1["completed_lessons_names"][1] = "sparta skills"  
 print(devops_student_1)
 ```
