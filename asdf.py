@@ -36,19 +36,32 @@
 # Dictionary can have al types of data collections
 # syntax for dictionaries {key:value}
 
-devops_student_1 = {"name": "sam",
-                    "age": 21,
-                    "stream": "tech",
-                    "completed_lessons": 3,
-                    "completed_lessons_names": ["strings", "lists", "operations"]
-                    }
-print(devops_student_1.keys())
-print(devops_student_1.values())
-print(devops_student_1["completed_lessons_names"][1])
-# find out how to delete an item from dictionary and delete operations
-# find out how to change completed lessons from 3 to 2
-del(devops_student_1["stream"])
-devops_student_1["completed_lessons"] = 2
-devops_student_1["completed_lessons_names"][1] = "sparta skills"
-print(devops_student_1)
+# devops_student_1 = {"name": "sam",
+#                     "age": 21,
+#                     "stream": "tech",
+#                     "completed_lessons": 3,
+#                     "completed_lessons_names": ["strings", "lists", "operations"]
+#                     }
+# print(devops_student_1.keys())
+# print(devops_student_1.values())
+# print(devops_student_1["completed_lessons_names"][1])
+# # find out how to delete an item from dictionary and delete operations
+# # find out how to change completed lessons from 3 to 2
+# del(devops_student_1["stream"])
+# devops_student_1["completed_lessons"] = 2
+# devops_student_1["completed_lessons_names"][1] = "sparta skills"
+# print(devops_student_1)
 
+# Control Flow
+
+# if, elif, else statements - conditional statements
+
+weather = "sunny"
+if weather == "sunny":
+    print("Let's do a BBQ! ")  # execute this if sunny
+elif weather == "dry":
+    print("Getting there! ")  # execute this if dry
+else:
+    print("Let's stay inside! ")  # execute this if not sunny
+
+# Pseudo code
