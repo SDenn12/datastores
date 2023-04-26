@@ -10,7 +10,7 @@ cd linux-6.2.12
 scripts/config --disable SYSTEM_TRUSTED_KEYS
 scripts/config --disable SYSTEM_REVOCATION_KEYS
 cp /boot/config-5.15.0-71-generic ./.config
-make oldconfig
+make olddefconfig
 make -j8 
 make modules_install
 make install
